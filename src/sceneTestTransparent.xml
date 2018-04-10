@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<scene   
+    background-color="0 0 0"
+    screen-width="500"
+    screen-height="500"
+    screen-distance="100"
+    scene-name="renderScene"
+>
+    <ambiant-light
+        color="255 255 255"
+    />                            
+    <camera
+        PO="0 0 0"
+        vTo="0 0 -1"
+        vUp="0 1 0"
+    /> 
+    <sphere
+        center="0 0 -1500"
+        radius="1100"
+        material = "0.5 0.5 0 0.5 1 0"
+        nShininess = "35"
+        emmission = "17 15 116"
+        shadow = "true"  
+    />
+    <sphere
+        center="-200 0 -1500"
+        radius="700"
+        material = "0.5 0.5 0 0.5 1 0"
+        nShininess = "35"
+        emmission = "116 15 17"
+        shadow = "true"  
+    />
+    <sphere
+        center="-200 0 -1500"
+        radius="300"
+        material = "1 1 0 0 1 0"
+        nShininess = "35"
+        emmission = "15 200 17"
+        shadow = "true"  
+    />
+   <point-light
+        color="255 50 50"
+        area="2"
+        position="200 200 -20"
+        Kc_Kl_Kq="0.000004 0.000004 0.000002"
+        shadow = "true"  
+    />  
+</scene>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<scene
+    
+    background-color="24 101 209"
+    screen-width="500"
+    screen-height="500"
+    screen-distance="1000"
+    scene-name="renderScene"
+>
+    <ambiant-light
+        color="255 255 255"
+    />              
+    <camera
+        PO="0 0 0"
+        vTo="0 0 -1"
+        vUp="0 1 0"
+    />  
+    
+    
+    <!-- cloud1 -->                   
+    <sphere
+        center="7000 500 -1800"
+        radius="40"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="620 500 -1800"
+        radius="70"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="550 565 -1800"
+        radius="70"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="500 500 -1800"
+        radius="100"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="410 500 -1800"
+        radius="40"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    
+    
+    <!-- cloud2 -->
+    <sphere
+        center="200 300 -1800"
+        radius="70"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="270 300 -1800"
+        radius="50"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="310 300 -1800"
+        radius="30"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="130 280 -1800"
+        radius="40"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    
+    
+    <!-- cloud3 -->
+    <sphere
+        center="-100 530 -1800"
+        radius="70"
+        material = "0.3 0 0 1 1 0"
+        nShininess = "35"
+        emmission = "200 200 200"
+        shadow="false"
+    /> 
+    <sphere
+        center="-170 510 -1800"
+        radius="40"
+        material = "0.3 0 0 1 1 0"
+        nShininess = "35"
+        emmission = "200 200 200"
+        shadow="false"
+    /> 
+    <sphere
+        center="-50 570 -1800"
+        radius="55"
+        material = "0.3 0 0 1 1 0"
+        nShininess = "35"
+        emmission = "200 200 200"
+        shadow="false"
+    /> 
+    <sphere
+        center="-50 510 -1800"
+        radius="40"
+        material = "0.3 0 0 1 1 0"
+        nShininess = "35"
+        emmission = "200 200 200"
+        shadow="false"
+    /> 
+    <sphere
+        center="0 540 -1800"
+        radius="50"
+        material = "0.3 0 0 1 1 0"
+        nShininess = "35"
+        emmission = "200 200 200"
+        shadow="false"
+    /> 
+    <sphere
+        center="45 540 -1800"
+        radius="20"
+        material = "0.3 0 0 1 1 0"
+        nShininess = "35"
+        emmission = "200 200 200"
+        shadow="false"
+    /> 
+    
+    
+     <!-- cloud4 -->
+    <sphere
+        center="-450 565 -1800"
+        radius="100"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="-550 515 -1800"
+        radius="100"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    />  
+    <sphere
+        center="-650 465 -1800"
+        radius="100"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="-750 435 -1800"
+        radius="70"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="-650 445 -1800"
+        radius="70"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="-530 435 -1800"
+        radius="90"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="-460 455 -1800"
+        radius="110"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="-360 405 -1800"
+        radius="40"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+     <sphere
+        center="-350 475 -1800"
+        radius="110"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="-300 515 -1800"
+        radius="100"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    /> 
+    <sphere
+        center="-220 465 -1800"
+        radius="100"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    />  
+    <sphere
+        center="-140 445 -1800"
+        radius="60"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "255 255 255"
+        shadow="false"
+    />  
+    
+    
+     <!-- sun -->
+     <sphere
+        center="-200 600 -2000"
+        radius="140"
+        material = "0 0 0 1 1 0"
+        nShininess = "35"
+        emmission = "240 240 20"
+        shadow="false"
+    />  
+     
+     
+     <!-- ground -->
+      <sphere
+        center="0 -5700 -2200"
+        radius="5000"
+        material = "0.1 0.3 0 0 1 0"
+        nShininess = "35"
+        emmission = "0 50 110"
+        shadow="true"
+    />  
+     
+      
+       <!-- tree -->
+    <!-- <sphere
+        center="300 0 -2200"
+        radius="250"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "0 50 0"
+    />  
+     <sphere
+        center="-120 -80 -2200"
+        radius="150"
+        material = "1 1 0 1 1 0"
+        nShininess = "35"
+        emmission = "0 50 0"
+    />  -->
+   <!--   
+    <point-light
+        color="230 230 100"
+        area="3"
+        position="0 800 -1800"
+        Kc_Kl_Kq="0.000001 0.000001 0.000001"
+    />  -->
+    <directional-light
+        color="180 180 100"
+        area="150"
+        position="-200 2000 -4000"
+        direction="0.2 -0.8 1"
+        shadow="true"
+    />  
+    <point-light
+        color="190 190 230"
+        area="50"
+        position="400 -100 -2000"
+        Kc_Kl_Kq="0.0002 0.0002 0.0002"
+        shadow="false"
+    /> 
+   <!-- <point-light
+        color="190 190 230"
+        area="1"
+        position="400 -600 -1900"
+        Kc_Kl_Kq="0.00006 0.00006 0.00006"
+        shadow="false"
+    /> -->
+  <!-- 
+        <triangle
+        P0="-170 760 -2000"
+        P1="-230 760 -2000"
+        P2="-200 910 -2000"
+        material = "0 0 0 0 1 0"
+        nShininess = "1"
+        emmission = "220 220 20"
+    />
+        <plane
+        q="0 -220 0"
+        n="0 1 0"
+        material = "1 1 0 1 1 0"
+        nShininess = "10"
+        emmission = "0 0 0"
+    />      
+   <point-light
+        color="255 250 250"
+        area="3"
+        position="0 30 -9"
+        Kc_Kl_Kq="0.05 0.05 0.05"
+    />           
+    <plane
+        q="0 0 -30"
+        n="0 0 -1"
+        material = "1 1 0 0 1"
+        nShininess = "10"
+        emmission = "40 0 0"
+    />
+    <plane
+        q="-30 0 -30"
+        n="1 0 0"
+        material = "1 1 0 0 1"
+        nShininess = "10"
+        emmission = "0 40 0"
+    />
+    <sphere
+        center="-5 -3.5 -4"
+        radius="1.5"
+        material = "0.5 0.5 0 0.5 0.5"
+        nShininess = "30"
+        emmission = "0 0 50"
+    />
+    <sphere
+        center="-5 -3.5 -4"
+        radius="0.6"
+        material = "1 1 0 0 1"
+        nShininess = "50"
+        emmission = "150 0 0"
+    />
+    <sphere
+        center="1.5 -4 -5"
+        radius="1"
+        material = "1 1 0 0 1"
+        nShininess = "5"
+        emmission = "0 0 0"
+    />
+    <triangle
+        P0="0 -5 -5"
+        P1="-3 20 -12.5"
+        P2="-30 -5 -20"
+        material = "0.2 0.2 1 0 0.2"
+        nShininess = "1"
+        emmission = "0 0 0"
+    />
+    <triangle
+        P0="25 10 -25"
+        P1="20 2 -25"
+        P2="0 2 -25"
+        material = "1 1 0 0 1"
+        nShininess = "1"
+        emmission = "0 40 0"
+    />-->     
+</scene>
